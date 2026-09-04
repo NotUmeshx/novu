@@ -7,7 +7,7 @@ app.secret_key = "your_secret_key_here"
 
 CLIENT_ID = "39c806aa86244e25ac516fbeea850a53"
 CLIENT_SECRET = "d141f981d405418bba9cdd4b3990550d"
-REDIRECT_URI = "http://localhost:5000/callback"
+REDIRECT_URI = "http://127.0.0.1:5000/callback"
 
 @app.route("/")
 def index():
