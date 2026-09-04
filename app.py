@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 app.secret_key = "your_secret_key_here"
 
-CLIENT_ID = "your_spotify_client_id"
-CLIENT_SECRET = "your_spotify_client_secret"
+CLIENT_ID = "39c806aa86244e25ac516fbeea850a53"
+CLIENT_SECRET = "d141f981d405418bba9cdd4b3990550d"
 REDIRECT_URI = "http://localhost:5000/callback"
 
 @app.route("/")
